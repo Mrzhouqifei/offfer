@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长公共子序列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/二维数组中的查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/二维数组中的查找.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/堆排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长上升子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/快速排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/打怪.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp/打怪.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/石子合并.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/石子合并.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/选择排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/选择排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/重建二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/重建二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/链表的归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/链表的归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/01背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/duochong.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/多重背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/wanquan.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/完全背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/二维费用背包.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/二维费用背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/分组背包.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/分组背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beibao/背包问题求方案数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/二叉搜索树与双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/二叉树层次打印.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉树层次打印.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/反转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/反转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/数组中的逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetecode/数组中的逆序对.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/栈的压入弹出序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/栈的压入弹出序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/礼物的最大价值.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/礼物的最大价值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +39,25 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="7224a3d2-2d8b-44fd-92e7-79bbe816ae18" />
+  <component name="JupyterTrust" id="d2776d2e-d837-4b6d-bf30-60f24428278e" />
   <component name="ProjectId" id="1hxXf0Oty7fGkqO8rLTrxsXM1Yl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -59,6 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,18 +75,6 @@
       <recent name="$PROJECT_DIR$/常考面试/背包与DP" />
       <recent name="$PROJECT_DIR$/常考面试/排序链表队列" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -107,6 +102,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
@@ -116,6 +114,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="153" key="CommitChangelistDialog2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1600953929970" />
+    <state x="222" y="105" key="SettingsEditor" timestamp="1601014657353">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1601014657353" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600954072204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

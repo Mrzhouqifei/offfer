@@ -1,5 +1,4 @@
 # # 归并排序是典型的二分分治排序
-#
 n = int(input())
 nums = list(map(int, input().split()))
 
