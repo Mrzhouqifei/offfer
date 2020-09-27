@@ -20,10 +20,10 @@ class Solution:
 
         s = [1, 2, 3]
 
-        f[1] = f[2] = f[3] = True
-        for i in range(4, n + 1):
+        for i in range(1, n + 1):
             for x in s:
-                f[i] |= not f[i - x]
+                if i - x >= 0:
+                    f[i] |= not f[i - x]
         return f[n]
 
 

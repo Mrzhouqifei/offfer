@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/环路检测.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/数学/掷骰子概率.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡选择排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/选择排序.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/合并两个排序的链表.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,18 +103,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,7 +128,10 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
