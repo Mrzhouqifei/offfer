@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/环路检测.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/数学/掷骰子概率.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡选择排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/选择排序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/排序/合并两个排序的链表.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +81,47 @@
       <recent name="$PROJECT_DIR$/常考面试/排序链表队列" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="下一个更大的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="offfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常考面试/排序链表队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.下一个更大的元素" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,9 +148,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
@@ -114,6 +157,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="153" key="CommitChangelistDialog2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1600953929970" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1601108501394">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1601108501394" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1601108501392">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.center/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1601108501392" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1601108501391">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.left/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1601108501391" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1601108501393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.right/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1601108501393" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1601014657353">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -122,5 +181,8 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1600954072204" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="下一个更大的元素 Coverage Results" MODIFIED="1601108501381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
   </component>
 </project>
