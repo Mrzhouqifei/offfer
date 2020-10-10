@@ -1,3 +1,5 @@
+# 石子合并的最小花费
+
 n = int(input())
 stones = list(map(int, input().split()))
 s = [0]
