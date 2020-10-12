@@ -1,6 +1,6 @@
 """
 leetcode 215
-改进的快排法
+利用快排思路求解
 """
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:

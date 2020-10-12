@@ -2,7 +2,6 @@
 快慢指针
 2m + 2a + 2sr =  m + a + fr
 m = (f-s)r - a,从相遇点开始走正好在入口相遇
-
 leetcode 面试题02.08
 """
 
@@ -20,7 +19,7 @@ class Solution:
             slow = slow.next
             if fast == slow:
                 while head != slow:
-                    head=head.next
-                    slow=slow.next
-                return head
+                    head = head.next
+                    slow = slow.next
+                return head  # 相遇的节点
         return None

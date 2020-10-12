@@ -12,7 +12,7 @@ for x in nums:
     print(x, end=' ')
 
 
-# 选择
+# 选择（时间复杂度优于冒泡）
 
 n = int(input())
 nums = list(map(int, input().split()))

@@ -1,28 +1,28 @@
 """
 单调栈
 leetcode 496, 503 下一个更大的元素
-556 比当前数大的最小数
-739
+556 比当前数大的最小数（位数一样，数字相同）
+739 下一个更高的气温，至少需要等待的天数
 """
 
 # 单调递减栈 496
 """
-给定两个 没有重复元素 的数组 nums1 和 nums2 ，其中nums1 是 nums2 的子集。找到 nums1 中每个元素在 nums2 中的下一个比其大的值。
+给定两个没有重复元素 的数组 nums1 和 nums2 ，其中nums1 是 nums2 的子集。找到 nums1 中每个元素在 nums2 中的下一个比其大的值。
 nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位置的右边的第一个比 x 大的元素。如果不存在，对应位置输出 -1 。
 """
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         if not nums2:
             return []
-        stack = [nums2[0]]  # 存数
+        stack = [nums2[0]]  # 存数（没有重复元素）
         res = {}
 
         for i in range(1, len(nums2)):
             while stack and nums2[i] > stack[-1]:
-                res[stack.pop()] = nums2[i]
+                res[stack.pop()] = nums2[i]  # 若遇到更大的元素，则出栈，并判断下一个栈顶元素的大小
             stack.append(nums2[i])
 
-        while stack:
+        while stack:    # 栈中剩下的元素都不存在下一个更大的元素
             res[stack.pop()] = -1
 
         ans = []
@@ -39,15 +39,15 @@ class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         circle = nums + nums
         res = {}
-        stack = [0]  # 存下标
+        stack = [0]  # 存下标（有重复元素）
 
         for i in range(1, len(circle)):
             while stack and circle[i] > circle[stack[-1]]:
-                res[stack.pop()] = circle[i]
+                res[stack.pop()] = circle[i]  # 若遇到更大的元素，则出栈，并判断下一个栈顶元素的大小
             stack.append(i)
-            if stack[0] >= len(nums):
+            if stack[0] >= len(nums):  # 数组所有元素都找到，提前跳出
                 break
-        while stack:
+        while stack:  # 栈中剩下的元素都不存在下一个更大的元素
             res[stack.pop()] = -1
         ans = []
         for i in range(len(nums)):
@@ -81,7 +81,7 @@ class Solution:
 
 # 739
 """
-请根据每日 气温 列表，重新生成一个列表。对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用 0 来代替。
+请根据每日气温 列表，重新生成一个列表。对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用 0 来代替。
 """
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:

@@ -1,3 +1,7 @@
+"""
+查找给定二维有序数组是否有指定的数
+"""
+
 class Solution(object):
     def searchArray(self, array, target):
         """
