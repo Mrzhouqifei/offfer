@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/最大值减最小值小于等于num的子数组数量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/树/翻转二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序&amp;小和问题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/树的直径.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/双指针/无重复字符最长字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/双指针/无重复字符最长字串.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -107,19 +106,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,6 +125,11 @@
       <workItem from="1602476252949" duration="4590000" />
       <workItem from="1602567855896" duration="1017000" />
       <workItem from="1602577856738" duration="5911000" />
+      <workItem from="1603772947676" duration="148000" />
+      <workItem from="1609163378924" duration="703000" />
+      <workItem from="1609214478299" duration="526000" />
+      <workItem from="1609217144991" duration="664000" />
+      <workItem from="1609220613043" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600953930600</created>
@@ -171,20 +163,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />

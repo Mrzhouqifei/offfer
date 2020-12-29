@@ -11,11 +11,12 @@ class Solution:
             return 0
 
         dp = 1  # 最长字串长度
-        p1, p2 = 1, 0   # 双指针
+        fast, slow = 1, 0   # 双指针
 
-        while p1 < n:
-            for i in range(p2, p1):   # 滑动窗口
-                if s[i] == s[p1]:
-                    p2 = p1 + 1
-            dp = max(dp, p1 - p2 + 1)
+        while fast < n:
+            for i in range(slow, fast):   # 滑动窗口
+                if s[i] == s[fast]:
+                    slow = i + 1
+            dp = max(dp, fast - slow + 1)
+            fast += 1
         return dp
