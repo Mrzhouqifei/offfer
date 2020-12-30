@@ -45,8 +45,8 @@ class Solution:
             while stack and circle[i] > circle[stack[-1]]:
                 res[stack.pop()] = circle[i]  # 若遇到更大的元素，则出栈，并判断下一个栈顶元素的大小
             stack.append(i)
-            if stack[0] >= len(nums):  # 数组所有元素都找到，提前跳出
-                break
+            # if stack[0] >= len(nums):  # 数组所有元素都找到，提前跳出
+            #     break
         while stack:  # 栈中剩下的元素都不存在下一个更大的元素
             res[stack.pop()] = -1
         ans = []
@@ -74,7 +74,8 @@ class Solution:
                 nums[cg1] = tmp
 
                 res = int(''.join(nums[:i + 1] + sorted(nums[i + 1:])))
-                if -2 ** 31 < res < 2 ** 31 - 1:
+                # if -2 ** 31 < res < 2 ** 31 - 1:
+                if res < 2 ** 31 - 1:
                     return res
             stack.append(i)
         return -1

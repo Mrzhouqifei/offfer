@@ -16,10 +16,10 @@ class Solution:
             if node.right:
                 dfs(node.right)
 
-            if node.left or node.right:
-                p = node.left
-                node.left = node.right
-                node.right = p
+            # if node.left or node.right:
+            p = node.left
+            node.left = node.right
+            node.right = p
 
         dfs(root)
         return root
