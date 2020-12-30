@@ -1,10 +1,12 @@
 # 石子合并的最小花费
-
+"""
+acwing 282
+"""
 n = int(input())
 stones = list(map(int, input().split()))
 s = [0]
 for x in stones:
-    s.append(s[-1] + x)
+    s.append(s[-1] + x)     # 石子重量之和
 f = [[0] * n for _ in range(n)]
 
 

@@ -39,7 +39,7 @@ class Solution:
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
         n = len(nums)
-        f = [[0] * n for _ in range(n)]  # 记录当前玩家得分减去对方玩家得分的最大值
+        f = [[0] * n for _ in range(n)]  # [起点, 终点]记录当前玩家得分减去对方玩家得分的最大值
         for i in range(n): f[i][i] = nums[i]
 
         for len in range(2, n+1):
@@ -66,4 +66,4 @@ class Solution:
             for i in range(n - length + 1):
                 j = i + length - 1
                 f[i][j] = max(piles[i] - f[i+1][j], piles[j] - f[i][j-1])
-        return f[0][n-1] > 0
+        return f[0][n-1] >= 0

@@ -1,3 +1,7 @@
+"""
+剑指offer 47
+"""
+
 class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         # f[i][j] = max(f[i-1][j], f[i][j-1]) + grid[i][j]

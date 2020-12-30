@@ -1,3 +1,9 @@
+"""
+最长回文子串
+leetcode 5
+"""
+
+
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
