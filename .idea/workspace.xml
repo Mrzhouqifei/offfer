@@ -20,17 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/单词转换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/字符串/字符串解码.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/字符串/括号问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/排序链表队列/分割链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/智力题/最佳(多)直线.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/矩阵/旋转矩阵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/水域大小dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/双指针/最小差.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/树/二叉树遍历.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/topK大的数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/topK大的数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序&amp;小和问题&amp;逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序&amp;小和问题&amp;逆序对.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/完全背包.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/完全背包.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长上升子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长上升子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/单词转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/单词转换dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉树层次打印.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉树层次打印bfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <recent name="$PROJECT_DIR$/常考面试/背包与DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.topK大的数">
+  <component name="RunManager" selected="Python.最小差">
     <configuration name="下一个更大的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="offfer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +93,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="最小差" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="offfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常考面试/双指针" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常考面试/双指针/最小差.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,9 +235,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.最小差" />
         <item itemvalue="Python.topK大的数" />
-        <item itemvalue="Python.最长上升子序列" />
-        <item itemvalue="Python.旋转矩阵" />
         <item itemvalue="Python.归并排序&amp;小和问题&amp;逆序对" />
         <item itemvalue="Python.下一个更大的元素" />
       </list>
@@ -263,7 +280,10 @@
       <workItem from="1609561941507" duration="4415000" />
       <workItem from="1609648517909" duration="2183000" />
       <workItem from="1609746198862" duration="775000" />
-      <workItem from="1609763673512" duration="6518000" />
+      <workItem from="1609763673512" duration="6633000" />
+      <workItem from="1609938761339" duration="643000" />
+      <workItem from="1609987483430" duration="573000" />
+      <workItem from="1610006831157" duration="5716000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600953930600</created>
@@ -307,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609586560510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="interview">
+      <created>1609936346187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609936346187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,40 +359,40 @@
     <option name="LAST_COMMIT_MESSAGE" value="interview" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1479" y="4" key="CommitChangelistDialog2" timestamp="1609586559758">
+    <state x="-1479" y="4" key="CommitChangelistDialog2" timestamp="1609936345466">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1479" y="4" key="CommitChangelistDialog2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609586559758" />
+    <state x="-1479" y="4" key="CommitChangelistDialog2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609936345466" />
     <state x="331" y="172" key="CommitChangelistDialog2/-1920.-46.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1602332557782" />
     <state x="331" y="153" key="CommitChangelistDialog2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1602650844265" />
-    <state width="1878" height="193" key="GridCell.Tab.0.bottom" timestamp="1609912053671">
+    <state width="1878" height="193" key="GridCell.Tab.0.bottom" timestamp="1610020888740">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="193" key="GridCell.Tab.0.bottom/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609912053671" />
+    <state width="1878" height="193" key="GridCell.Tab.0.bottom/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610020888740" />
     <state width="1878" height="193" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1609647197391" />
-    <state width="1878" height="193" key="GridCell.Tab.0.center" timestamp="1609912053668">
+    <state width="1878" height="193" key="GridCell.Tab.0.center" timestamp="1610020888737">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="193" key="GridCell.Tab.0.center/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609912053668" />
+    <state width="1878" height="193" key="GridCell.Tab.0.center/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610020888737" />
     <state width="1878" height="193" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1609647197388" />
-    <state width="1878" height="193" key="GridCell.Tab.0.left" timestamp="1609912053666">
+    <state width="1878" height="193" key="GridCell.Tab.0.left" timestamp="1610020888735">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="193" key="GridCell.Tab.0.left/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609912053666" />
+    <state width="1878" height="193" key="GridCell.Tab.0.left/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610020888735" />
     <state width="1878" height="193" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1609647197383" />
-    <state width="1878" height="193" key="GridCell.Tab.0.right" timestamp="1609912053670">
+    <state width="1878" height="193" key="GridCell.Tab.0.right" timestamp="1610020888739">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="193" key="GridCell.Tab.0.right/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609912053670" />
+    <state width="1878" height="193" key="GridCell.Tab.0.right/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610020888739" />
     <state width="1878" height="193" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1609647197390" />
     <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1609501254894">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="436" y="173" key="MultipleFileMergeDialog/-1920.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1609501254894" />
-    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2" timestamp="1609586570228">
+    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2" timestamp="1609936355492">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609586570228" />
+    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1609936355492" />
     <state x="320" y="208" key="Vcs.Push.Dialog.v2/-1920.-46.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1602332565655" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1602653098192" />
     <state x="525" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609501235203">
@@ -376,7 +403,7 @@
     <state x="525" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1609216995492" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="最长上升子序列 Coverage Results" MODIFIED="1609905238720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/背包与DP" />
+    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="最小差 Coverage Results" MODIFIED="1610020888706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/双指针" />
     <SUITE FILE_PATH="coverage/offfer$topK.coverage" NAME="topK大的数 Coverage Results" MODIFIED="1609912053654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
     <SUITE FILE_PATH="coverage/offfer$__.coverage" NAME="归并排序&amp;小和问题&amp;逆序对 Coverage Results" MODIFIED="1609583715190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
   </component>

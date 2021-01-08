@@ -37,5 +37,3 @@ class Solution:
         words = dfs([beginWord], endWord)
         return words
 
-
-

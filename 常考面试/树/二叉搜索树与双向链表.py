@@ -19,3 +19,29 @@ class Solution:
         dfs(root)
         self.head.left, self.pre.right = self.pre, self.head
         return self.head
+
+"""
+面试题 04.05. 合法二叉搜索树
+中序遍历
+"""
+
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
+        inorder =  float('-inf')
+
+        def search(root):
+            nonlocal inorder
+            if not root:
+                return True
+
+            if not search(root.left):
+                return False
+            if root.val <= inorder:
+                return False
+            inorder = root.val
+            if not search(root.right):
+                return False
+            return True
+
+        return search(root)
+
