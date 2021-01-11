@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs无（有）重复字符串的排列组合.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs最长单词.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/字符串/模式匹配.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/智力题/第k个数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/python字典排序&amp;列表反转.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/python字典排序&amp;列表反转.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/归并排序&amp;小和问题&amp;逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/二分)归并排序&amp;小和问题&amp;逆序对.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/bfs填充每个节点的下一个右侧节点指针.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/bfs填充每个节点的下一个右侧节点指针.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs&amp;bfs被围绕的区域.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs&amp;bfs被围绕的区域.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs幂集.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs幂集.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs无（有）重复字符串的排列组合.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs无（有）重复字符串的排列组合.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs最长单词.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs最长单词.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs水域大小.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/dfs&amp;bfs/dfs水域大小.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/二分)归并排序&amp;小和问题&amp;逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表队列/二分)归并排序&amp;小和问题&amp;逆序对.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +356,7 @@
       <workItem from="1610179606805" duration="589000" />
       <workItem from="1610182397202" duration="15000" />
       <workItem from="1610182445161" duration="9993000" />
-      <workItem from="1610338225060" duration="4009000" />
+      <workItem from="1610338225060" duration="8600000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600953930600</created>
@@ -420,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610265585948</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="interview">
+      <created>1610364529322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610364529322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,10 +453,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="interview" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1479" y="4" key="CommitChangelistDialog2" timestamp="1610265585519">
+    <state x="-1479" y="4" key="CommitChangelistDialog2" timestamp="1610364528830">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1479" y="4" key="CommitChangelistDialog2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610265585519" />
+    <state x="-1479" y="4" key="CommitChangelistDialog2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610364528830" />
     <state x="331" y="172" key="CommitChangelistDialog2/-1920.-46.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1602332557782" />
     <state x="331" y="153" key="CommitChangelistDialog2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1602650844265" />
     <state width="1878" height="193" key="GridCell.Tab.0.bottom" timestamp="1610338119112">
@@ -475,10 +483,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="436" y="173" key="MultipleFileMergeDialog/-1920.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1609501254894" />
-    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2" timestamp="1610265593760">
+    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2" timestamp="1610364536615">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610265593760" />
+    <state x="-1493" y="48" key="Vcs.Push.Dialog.v2/-1920.-180.1920.1080/0.0.1440.900@-1920.-180.1920.1080" timestamp="1610364536615" />
     <state x="320" y="208" key="Vcs.Push.Dialog.v2/-1920.-46.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1602332565655" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/-1920.-69.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1602653098192" />
     <state x="525" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609501235203">

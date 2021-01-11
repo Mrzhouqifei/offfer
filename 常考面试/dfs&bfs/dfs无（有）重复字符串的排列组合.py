@@ -34,7 +34,7 @@ class Solution:
 
         def dfs(word, i):
             if i == n - 1:
-                words = [s[j] for j in word]
+                words = [s[j] for j in word]    # words存的下标
                 res.add(''.join(words))
                 return
 

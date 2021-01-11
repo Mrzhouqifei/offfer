@@ -32,15 +32,6 @@ nums = mergeSort(nums)
 """
 面试题 17.08. 马戏团人塔
 """
-#
-# class Solution:
-#     import bisect
-#     def bestSeqAtIndex(self, height: List[int], weight: List[int]) -> int:
-#        dp=[]
-#        for a,b in sorted(zip(height,weight),key = lambda x:[x[0],-x[1]]):
-#            pos = bisect.bisect_left(dp,b)
-#            dp[pos:pos+1] = [b]
-#        return len(dp)
 
 class Solution(object):
     def bestSeqAtIndex(self, height, weight):
