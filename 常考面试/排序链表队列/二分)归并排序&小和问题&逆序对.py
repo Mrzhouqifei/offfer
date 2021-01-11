@@ -29,6 +29,37 @@ def mergeSort(nums):
     return nums
 nums = mergeSort(nums)
 
+"""
+面试题 17.08. 马戏团人塔
+"""
+#
+# class Solution:
+#     import bisect
+#     def bestSeqAtIndex(self, height: List[int], weight: List[int]) -> int:
+#        dp=[]
+#        for a,b in sorted(zip(height,weight),key = lambda x:[x[0],-x[1]]):
+#            pos = bisect.bisect_left(dp,b)
+#            dp[pos:pos+1] = [b]
+#        return len(dp)
+
+class Solution(object):
+    def bestSeqAtIndex(self, height, weight):
+        if not height: return 0
+        length = len(height)
+        actors = [(height[i], weight[i]) for i in range(length)]
+        actors.sort(key=lambda x:(x[0], -x[1]))
+        tail = [0] * length
+        size = 0
+        for actor in actors:
+            i, j = 0, size
+            while (i != j):
+                mid = (i + j) // 2
+                if tail[mid] < actor[1]: i = mid + 1
+                else: j = mid
+            tail[i] = actor[1]
+            if i == size: size += 1
+        return size
+
 
 """
 小和问题
