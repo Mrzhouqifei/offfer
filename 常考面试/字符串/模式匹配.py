@@ -1,6 +1,11 @@
 """
 面试题 16.18. 模式匹配
+你有两个字符串，即pattern和value。 pattern字符串由字母"a"和"b"组成，用于描述字符串中的模式。
 
+示例 1：
+
+输入： pattern = "abba", value = "dogcatcatdog"
+输出： true
 """
 
 
@@ -17,11 +22,6 @@ class Solution:
         if count_a < count_b:  # 保证a > b
             count_a, count_b = count_b, count_a
             pattern = ''.join('a' if ch == 'b' else 'b' for ch in pattern)
-
-        # if not value:
-        #     return count_b == 0
-        # if not pattern:
-        #     return False
 
         for len_a in range(len(value) // count_a + 1):
             rest = len(value) - count_a * len_a

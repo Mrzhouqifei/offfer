@@ -69,9 +69,10 @@ class Solution:
             while stack and nums[i] < nums[stack[-1]]:
                 cg1 = stack.pop()
             if cg1 != -1:
-                tmp = nums[i]
-                nums[i] = nums[cg1]
-                nums[cg1] = tmp
+                nums[i], nums[cg1] = nums[cg1], nums[i]
+                # tmp = nums[i]
+                # nums[i] = nums[cg1]
+                # nums[cg1] = tmp
 
                 res = int(''.join(nums[:i + 1] + sorted(nums[i + 1:])))
                 # if -2 ** 31 < res < 2 ** 31 - 1:
@@ -82,7 +83,8 @@ class Solution:
 
 # 739
 """
-请根据每日气温 列表，重新生成一个列表。对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用 0 来代替。
+请根据每日气温 列表，重新生成一个列表。对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，
+请在该位置用 0 来代替。
 """
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:

@@ -14,8 +14,6 @@ class Solution:
             nums = 7 * (rand7() - 1) + rand7()
         return nums % 10 + 1
 
-
-
 """
 解释
 这个问题有两个形式：
@@ -66,8 +64,4 @@ rand7 + (rand7 - 1) * 7
 
 进一个 1就对应一个新数，因为这个7位数，1-7就代表一个数，进一位 1 (也就是7) ，就是对于另外一个数
 
-作者：jackwener
-链接：https://leetcode-cn.com/problems/implement-rand10-using-rand7/solution/xiang-xi-fen-xi-fei-chang-jing-dian-de-ti-mu-deng-/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 """

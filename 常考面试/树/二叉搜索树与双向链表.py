@@ -22,12 +22,22 @@ class Solution:
 
 """
 面试题 04.05. 合法二叉搜索树
-中序遍历
+
+实现一个函数，检查一棵二叉树是否为二叉搜索树。
+
+示例 1:
+输入:
+    2
+   / \
+  1   3
+输出: true
+
+中序遍历 （从小到大）
 """
 
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
-        inorder =  float('-inf')
+        inorder = float('-inf')
 
         def search(root):
             nonlocal inorder

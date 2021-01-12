@@ -1,9 +1,8 @@
 """
 面试题 16.06. 最小差
 给定两个整数数组a和b，计算具有最小差绝对值的一对数值（每个数组中取一个值），并返回该对数值的差
-"""
 
-# print(float('inf') > 10)
+"""
 
 class Solution:
     def smallestDifference(self, a: List[int], b: List[int]) -> int:
