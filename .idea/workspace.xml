@@ -19,51 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/硬币(完全背包).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/背包.py" afterDir="false" />
+    <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/常考面试/双指针/三数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/双指针/四数之和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常考面试/背包与DP/组合总和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/双指针/单词距离.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/双指针/单词距离.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/双指针/无重复字符最长字串.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/双指针/无重复字符最长字串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/双指针/最小差.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/双指针/最小差.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/双指针/环路检测.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/双指针/环路检测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/字符串/字符串解码.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/字符串/字符串解码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/字符串/括号问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/字符串/移除无效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/字符串/模式匹配.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/字符串/模式匹配.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/并查集/婴儿名字.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/并查集/婴儿名字.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/python字典排序&amp;列表反转.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/字典排序&amp;列表反转&amp;变位词组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/topK大的数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/topK大(小)的数_快排_堆.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/二分)归并排序&amp;小和问题&amp;逆序对.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/归并&amp;马戏团人塔&amp;小和&amp;逆序对.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/二维数组中的查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/矩阵/二维数组中的查找.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/冒泡选择排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/冒泡选择排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/分割链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/分割链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/单调栈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/反转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/反转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/快速排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/最大值减最小值小于等于num的子数组数量.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/最大值减最小值小于等于num的子数组数量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/栈的压入弹出序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/栈的压入弹出序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/排序链表队列/链表的归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/链表的归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/智力题/最佳(多)直线.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/智力题/最佳(多)直线.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/智力题/第k个数.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/智力题/第k个数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/智力题/等概率映射.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/智力题/等概率映射rand7_rand10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉搜索树与双向链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/二叉树层次打印bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/二叉树层次打印bfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/树的直径.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/树的直径.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/树/首个共同祖先.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/树/首个共同祖先.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/矩阵/旋转矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/矩阵/旋转矩阵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/01背包.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/二维费用背包.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/分组背包.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/博弈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/多重背包.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/完全背包.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长上升子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长上升子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长公共子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长公共子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/最长回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/石子合并.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/石子合并.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/礼物的最大价值.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/礼物的最大价值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/股票买卖最佳时机.py" beforeDir="false" afterPath="$PROJECT_DIR$/常考面试/背包与DP/股票买卖最佳时机.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常考面试/背包与DP/背包问题求方案数.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,6 +381,8 @@
       <workItem from="1610425370239" duration="336000" />
       <workItem from="1610425816838" duration="10070000" />
       <workItem from="1610444214721" duration="9577000" />
+      <workItem from="1610535438546" duration="10000" />
+      <workItem from="1610793122425" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600953930600</created>
@@ -521,10 +485,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="interview" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/offfer$python_.coverage" NAME="python字典排序&amp;列表反转 Coverage Results" MODIFIED="1610429462944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
-    <SUITE FILE_PATH="coverage/offfer$__.coverage" NAME="归并排序&amp;小和问题&amp;逆序对 Coverage Results" MODIFIED="1609583715190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
-    <SUITE FILE_PATH="coverage/offfer$dfs.coverage" NAME="dfs最长单词 Coverage Results" MODIFIED="1610345368920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/dfs&amp;bfs" />
-    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="婴儿名字 Coverage Results" MODIFIED="1610255372911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/并查集" />
     <SUITE FILE_PATH="coverage/offfer$topK.coverage" NAME="topK大的数 Coverage Results" MODIFIED="1609912053654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$__.coverage" NAME="归并排序&amp;小和问题&amp;逆序对 Coverage Results" MODIFIED="1609583715190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="下一个更大的元素 Coverage Results" MODIFIED="1601108501381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$python_.coverage" NAME="python字典排序&amp;列表反转 Coverage Results" MODIFIED="1610429462944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$python.coverage" NAME="python字典排序 Coverage Results" MODIFIED="1609247019278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$python___1_.coverage" NAME="python字典排序&amp;列表反转 (1) Coverage Results" MODIFIED="1609247865386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$dfs.coverage" NAME="dfs最长单词 Coverage Results" MODIFIED="1610345368920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/dfs&amp;bfs" />
   </component>
 </project>
