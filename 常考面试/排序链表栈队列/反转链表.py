@@ -14,6 +14,7 @@ class Solution:
         """
         pre = None
         p = head
+        # 先记录下一个，在将这一个的连接到前面，跟新前面，跟新当前
         while p:
             next = p.next
             p.next = pre
