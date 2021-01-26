@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/常考面试/排序链表栈队列/自定义排序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常考面试/树/打家劫舍_树形dp.py" afterDir="false" />
+    <list default="true" id="495f93ff-5d29-4a7e-96d5-84e729cec460" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/常考面试/树/最小高度树（重心）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/offfer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/offfer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常考面试/排序链表队列/单调栈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="反转链表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="offfer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常考面试/排序链表栈队列" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常考面试/排序链表栈队列/反转链表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -381,9 +405,10 @@
       <workItem from="1610535438546" duration="10000" />
       <workItem from="1610793122425" duration="4210000" />
       <workItem from="1610953935830" duration="1615000" />
-      <workItem from="1611213644435" duration="733000" />
-      <workItem from="1611451406769" duration="515000" />
-      <workItem from="1611455714176" duration="814000" />
+      <workItem from="1610968508599" duration="482000" />
+      <workItem from="1611213332668" duration="1000" />
+      <workItem from="1611492600388" duration="1717000" />
+      <workItem from="1611539967530" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600953930600</created>
@@ -470,11 +495,11 @@
       <updated>1610859630971</updated>
     </task>
     <task id="LOCAL-00013" summary="init">
-      <created>1611451902632</created>
+      <created>1610958112144</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1611451902632</updated>
+      <updated>1610958112144</updated>
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
@@ -500,12 +525,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/offfer$topK.coverage" NAME="topK大的数 Coverage Results" MODIFIED="1609912053654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
-    <SUITE FILE_PATH="coverage/offfer$__.coverage" NAME="归并排序&amp;小和问题&amp;逆序对 Coverage Results" MODIFIED="1609583715190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
-    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="下一个更大的元素 Coverage Results" MODIFIED="1601108501381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$python___1_.coverage" NAME="python字典排序&amp;列表反转 (1) Coverage Results" MODIFIED="1609247865386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
     <SUITE FILE_PATH="coverage/offfer$python_.coverage" NAME="python字典排序&amp;列表反转 Coverage Results" MODIFIED="1610429462944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
     <SUITE FILE_PATH="coverage/offfer$python.coverage" NAME="python字典排序 Coverage Results" MODIFIED="1609247019278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
-    <SUITE FILE_PATH="coverage/offfer$python___1_.coverage" NAME="python字典排序&amp;列表反转 (1) Coverage Results" MODIFIED="1609247865386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$__.coverage" NAME="归并排序&amp;小和问题&amp;逆序对 Coverage Results" MODIFIED="1609583715190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
     <SUITE FILE_PATH="coverage/offfer$dfs.coverage" NAME="dfs最长单词 Coverage Results" MODIFIED="1610345368920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/dfs&amp;bfs" />
+    <SUITE FILE_PATH="coverage/offfer$topK.coverage" NAME="topK大的数 Coverage Results" MODIFIED="1609912053654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表队列" />
+    <SUITE FILE_PATH="coverage/offfer$.coverage" NAME="反转链表 Coverage Results" MODIFIED="1610968799313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常考面试/排序链表栈队列" />
   </component>
 </project>
