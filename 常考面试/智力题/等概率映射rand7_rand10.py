@@ -65,3 +65,5 @@ rand7 + (rand7 - 1) * 7
 进一个 1就对应一个新数，因为这个7位数，1-7就代表一个数，进一位 1 (也就是7) ，就是对于另外一个数
 
 """
+import random
+print(random.randint(1, 10))

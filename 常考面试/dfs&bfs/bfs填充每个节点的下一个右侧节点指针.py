@@ -17,22 +17,17 @@ struct Node {
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root: return root
-        q = []
-        if root.left:
-            q.append((root.left, 1))
-        if root.right:
-            q.append((root.right, 1))
-        root.next = None
-        pre, pre_index = root, 0
+        q = [(root, 0)]
+        pre, pre_index = None, -1
         while q:
             node, index = q.pop(0)
-            if pre_index == index:
+            if index == pre_index:
                 pre.next = node
             else:
-                pre.next = None
-            pre, pre_index = node, index
+                pre_index = index
             if node.left:
-                q.append((node.left, index + 1))
+                q.append((node.left, index+1))
             if node.right:
-                q.append((node.right, index + 1))
+                q.append((node.right, index+1))
+            pre = node
         return root
