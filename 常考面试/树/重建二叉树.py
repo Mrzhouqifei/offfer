@@ -20,23 +20,24 @@ leetcode 105 前序+中序 重建二叉树
 #         self.right = None
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+
         if not preorder:
             return None
 
         root = TreeNode(preorder[0])
         stack = [root]
-        inorder_index = 0
-        for i in range(1, len(preorder)):
-            preValue = preorder[i]
 
-            if stack[-1].val != inorder[inorder_index]:
-                node = TreeNode(preValue)
-                stack[-1].left = node
-                stack.append(node)
+        inorderIndex = 0
+        for i in range(1, len(preorder)):
+            pre_node = TreeNode(preorder[i])
+
+            if inorder[inorderIndex] != stack[-1].val:
+                stack[-1].left = pre_node
             else:
-                while stack and stack[-1].val == inorder[inorder_index]:
+                while stack and inorder[inorderIndex] == stack[-1].val:
                     node = stack.pop()
-                    inorder_index += 1
-                node.right = TreeNode(preValue)
-                stack.append(node.right)
+                    inorderIndex += 1
+
+                node.right = pre_node
+            stack.append(pre_node)
         return root
