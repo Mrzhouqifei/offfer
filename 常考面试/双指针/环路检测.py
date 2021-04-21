@@ -9,7 +9,7 @@ c: 环路长度
 s: 慢指针进行了几次环路
 f: 快指针进行了几次环路
 2m + 2a + 2sc =  m + a + fc
-m + a = (f-s)c, 从相遇点开始走正好在入口相遇
+m + a = (f-2s)c, 从相遇点开始走正好在入口相遇
 """
 
 # Definition for singly-linked list.

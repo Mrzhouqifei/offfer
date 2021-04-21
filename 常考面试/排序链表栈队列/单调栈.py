@@ -3,6 +3,8 @@
 leetcode 496, 503 下一个更大的元素
 556 比当前数大的最小数（位数一样，数字相同）
 739 下一个更高的气温，至少需要等待的天数
+402. 移掉K位数字
+321. 拼接最大数
 """
 
 # 单调递减栈 496
@@ -98,4 +100,110 @@ class Solution:
                 stack.pop()
             stack.append(i)
         return res
+
+"""
+给定一个以字符串表示的非负整数 num，移除这个数中的 k 位数字，使得剩下的数字最小。
+
+注意:
+num 的长度小于 10002 且≥ k。
+num 不会包含任何前导零。
+示例 1 :
+输入: num = "1432219", k = 3
+输出: "1219"
+解释: 移除掉三个数字 4, 3, 和 2 形成一个新的最小的数字 1219。
+"""
+
+class Solution:
+    def removeKdigits(self, num: str, k: int) -> str:
+
+        # 单调栈
+        left_len = len(num) - k
+        stack = [num[0]]
+        i = 1
+        while k and i < len(num):
+            while stack and stack[-1] > num[i] and k:
+                stack.pop()
+                k -= 1
+            stack.append(num[i])
+            i += 1
+        stack = stack + [x for x in num[i:]]
+        stack = stack[:left_len]
+        res = []
+        for i in range(len(stack)):
+            if stack[i] != '0':
+                res = stack[i:]
+                break
+
+        if len(res) == 0:
+            return '0'
+        return ''.join(res)
+
+"""
+给定长度分别为 m 和 n 的两个数组，其元素由 0-9 构成，表示两个自然数各位上的数字。现在从这两个数组中选出 k (k <= m + n) 个数字拼接成一个新的数，要求从同一个数组中取出的数字保持其在原数组中的相对顺序。
+
+求满足该条件的最大数。结果返回一个表示该最大数的长度为 k 的数组。
+
+说明: 请尽可能地优化你算法的时间和空间复杂度。
+
+示例 1:
+
+输入:
+nums1 = [3, 4, 6, 5]
+nums2 = [9, 1, 2, 5, 8, 3]
+k = 5
+输出:
+[9, 8, 6, 5, 3]
+"""
+class Solution:
+    def maxNumber(self, nums1: List[int], nums2: List[int], k: int) -> List[int]:
+        def merge(A, B):
+            i, j = 0, 0
+            lenA, lenB = len(A), len(B)
+            C = []
+            while i < lenA and j < lenB:
+                if A[i] > B[j]:
+                    C.append(A[i])
+                    i += 1
+                elif A[i] < B[j]:
+                    C.append(B[j])
+                    j += 1
+                else:
+                    strA = [str(x) for x in A[i+1:]]
+                    strB = [str(x) for x in B[j+1:]]
+                    if ''.join(strA) > ''.join(strB):
+                        C.append(A[i])
+                        i += 1
+                    else:
+                        C.append(B[j])
+                        j += 1
+
+            C = C + A[i:] + B[j:]
+            return C
+
+        def singleMax(nums, n):
+            stack = []
+            drop = len(nums) - n
+            i = 0
+            while drop and i < len(nums):
+                while stack and drop and nums[i] > stack[-1]:
+                    stack.pop()
+                    drop -= 1
+                stack.append(nums[i])
+                i += 1
+            stack = stack + nums[i:]
+            return stack[:n]
+
+        max_num = '0'
+        res = []
+        for i in range(1, min(k, len(nums1)) + 1):
+            j = k - i
+            if j > len(nums2):
+                continue
+            tmp = merge(singleMax(nums1, i), singleMax(nums2, j))
+            strtmp = [str(x) for x in tmp]
+            if ''.join(strtmp) > max_num:
+                res = tmp
+                max_num = ''.join(strtmp)
+        return res
+
 
